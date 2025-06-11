@@ -67,13 +67,13 @@ printf("pib per capita: %.2f trilhoes/hab\n", pib_per_capita_carta2);
 printf("super poder: %.2f\n", super_poder_carta2);
 //comparacao de atributos
 printf("\n--- comparacao de atributos (1= carta 1 vence, 0 = carta 2 vence) ---\n");
-printf("populacao: %d\n", populacao_carta1 > populacao_carta2 ? 1 : 0);
-printf("area: %d\n", area_carta1 > area_carta2 ? 1 : 0);
-printf("pib: %d\n", pib_carta1 > pib_carta2 ? 1: 0);
-printf("pontos turisticos: %d\n", pontos_turisticos_carta1 > pontos_turisticos_carta2 ? 1 : 0);
-printf(" densdade ppulacional: %d\n", densidade_populacional_carta1 > densidade_populacional_carta2 ? 1 : 0);
-printf("pib per capita %d\n", pib_per_capita_carta1 > pib_per_capita_carta2 ? 1 :0);
-printf("super poder: %d\n", super_poder_carta1 > super_poder_carta2 ? 1 : 0);
+printf("Populacao: %d\n", populacao_carta1 > populacao_carta2 ? 1 : 0);
+printf("Area: %d\n", area_carta1 > area_carta2 ? 1 : 0);
+printf("Pib: %d\n", pib_carta1 > pib_carta2 ? 1: 0);
+printf("Pontos turisticos: %d\n", pontos_turisticos_carta1 > pontos_turisticos_carta2 ? 1 : 0);
+printf("Densidade populacional: %d\n", densidade_populacional_carta1 > densidade_populacional_carta2 ? 1 : 0);
+printf("Pib per capita %d\n", pib_per_capita_carta1 > pib_per_capita_carta2 ? 1 :0);
+printf("Super poder: %d\n", super_poder_carta1 > super_poder_carta2 ? 1 : 0);
 return 0;
 
 
